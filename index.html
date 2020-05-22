@@ -27,11 +27,30 @@
           </ul>
         </div>
     </nav>
-    <body>
-        <p>Test</p>
+    <body style="background-color: rgb(230, 230, 230)">
+        <marquee>Dog</marquee>
     </body>
-    <canvas>
 
-    </canvas>
+    <div  style="padding-left:100px; float:left">
+      <canvas id="canvas" style="border: 3px solid black; background-color: white" width=800px height=800px></canvas>
+    </div>
+
+    <ul style="list-style-type: none;">
+      <li><button onclick="setBlack()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:black"></button></li>
+      <li><button onclick="setWhite()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:white"></button></li>
+      <li><button onclick="setBlue()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:blue"></button></li>
+      <li><button onclick="setRed()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:red"></button></li>
+      <li><button onclick="setGreen()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:green"></button></li>
+      <li><button onclick="setYellow()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:yellow"></button></li>
+      <li><button onclick="setOrange()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:orange"></button></li>
+      <li><button onclick="setPurple()" style="margin-left: 10px; border:none; border-radius: 10%; width:75px; height:75px; background-color:purple"></button></li>
+      <br/>
+      <li><span style="margin-left: 10px">Pen Size:</span></li>
+      <li><button onclick="setSmall()" style="border: none; margin-left:10px; background-color: black; width: 20px; height: 20px; border-radius: 50%"></button></li>
+      <li><button onclick="setMedium()" style="border: none; margin-left:10px; background-color: black; width: 30px; height: 30px; border-radius: 50%"></button></li>
+      <li><button onclick="setLarge()" style="border: none; margin-left:10px; background-color: black; width: 50px; height: 50px; border-radius: 50%"></button></li>
+    </ul>
+
+    
     
 </html>
